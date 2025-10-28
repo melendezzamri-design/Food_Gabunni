@@ -1,0 +1,87 @@
+{
+  "common": {
+    "siteName": "Gabunni Eats",
+    "menu": "Menú",
+    "aiRecommendations": "Chef IA",
+    "contact": "Contacto",
+    "exploreMenu": "Explorar Menú",
+    "addToOrder": "Agregar a Pedido",
+    "placeOrder": "Realizar Pedido",
+    "viewCart": "Ver Carrito",
+    "total": "Total",
+    "clearCart": "Vaciar Carrito",
+    "keepShopping": "Seguir Comprando",
+    "gotIt": "Entendido",
+    "price": "Precio"
+  },
+  "hero": {
+    "title": "Saborea la Frescura en Cada Bocado",
+    "subtitle": "Bienvenido a Gabunni Eats, donde cada chapata es una obra maestra de sabor.",
+    "cta": "Explorar Menú"
+  },
+  "menu": {
+    "title": "Explora Nuestro Menú",
+    "subtitle": "Elaborado con los ingredientes más frescos, solo para ti.",
+    "categories": {
+      "chapatas": "Chapatas",
+      "bebidas": "Bebidas",
+      "jugos": "Jugos"
+    }
+  },
+  "recommendations": {
+    "title": "El Chef IA Recomienda",
+    "subtitle": "Obtén recomendaciones personalizadas basadas en tus gustos e historial.",
+    "loginTitle": "Inicia Sesión para Recomendaciones Personalizadas",
+    "loginSubtitle": "Crea una cuenta o inicia sesión para desbloquear tu experiencia personalizada con nuestro Chef IA.",
+    "feature1Title": "Recomendaciones IA",
+    "feature1Description": "Obtén sugerencias personalizadas basadas en tus preferencias alimentarias.",
+    "feature2Title": "Historial de Pedidos",
+    "feature2Description": "Guarda tus pedidos favoritos y repítelos con un clic.",
+    "feature3Title": "Ofertas Exclusivas",
+    "feature3Description": "Recibe promociones y descuentos especiales para miembros.",
+    "createAccount": "Crear Cuenta",
+    "signIn": "Iniciar Sesión"
+  },
+  "contact": {
+    "title": "Visítanos",
+    "subtitle": "Estamos ansiosos por atenderte.",
+    "address": "Dirección",
+    "addressText": "Plaza de la Constitución S/N, Centro, Cuauhtémoc, 06010 Ciudad de México, CDMX",
+    "phone": "Teléfono",
+    "phoneText": "(555) 123-4567",
+    "hours": "Horario",
+    "hoursText": "Lun - Sáb: 9:00 AM - 10:00 PM"
+  },
+  "footer": {
+    "description": "Chapatas frescas, jugos y bebidas con los mejores ingredientes.",
+    "copyright": "© {year} Gabunni Eats. Todos los derechos reservados."
+  },
+  "cart": {
+    "title": "Tu Pedido",
+    "subtitle": "Revisa tus artículos antes de realizar tu pedido.",
+    "empty": "Tu carrito está vacío.",
+    "startOrdering": "Comenzar a Ordenar",
+    "confirmOrder": "Confirmar Pedido",
+    "confirmMessage": "Para realizar tu pedido, por favor llámanos al {phone}. ¡Estamos esperando tu llamada!",
+    "addedToCart": "{item} agregado al pedido!",
+    "reviewOrder": "Puedes revisar tu pedido en el carrito.",
+    "orderPlaced": "¡Pedido Realizado!",
+    "thankYou": "Gracias por tu pedido. Hemos vaciado tu carrito."
+  },
+  "language": {
+    "es": "Español",
+    "en": "English",
+    "switchTo": "Cambiar idioma"
+  },
+  "chatbot": {
+    "title": "Chatea con Gabby",
+    "subtitle": "Tu asistente de Gabunni Eats",
+    "placeholder": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "close": "Cerrar chat",
+    "minimize": "Minimizar",
+    "typing": "Gabby está escribiendo...",
+    "error": "Lo siento, hubo un error. Por favor intenta de nuevo.",
+    "welcome": "¡Hola! 👋 Soy Gabby, tu asistente de Gabunni Eats. ¿En qué puedo ayudarte hoy?"
+  }
+}

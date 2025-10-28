@@ -1,0 +1,87 @@
+{
+  "common": {
+    "siteName": "Gabunni Eats",
+    "menu": "Menu",
+    "aiRecommendations": "AI Chef",
+    "contact": "Contact",
+    "exploreMenu": "Explore Menu",
+    "addToOrder": "Add to Order",
+    "placeOrder": "Place Order",
+    "viewCart": "View Cart",
+    "total": "Total",
+    "clearCart": "Clear Cart",
+    "keepShopping": "Keep Shopping",
+    "gotIt": "Got it!",
+    "price": "Price"
+  },
+  "hero": {
+    "title": "Taste the Freshness in Every Bite",
+    "subtitle": "Welcome to Gabunni Eats, where every chapata is a masterpiece of flavor.",
+    "cta": "Explore Menu"
+  },
+  "menu": {
+    "title": "Explore Our Menu",
+    "subtitle": "Crafted with the freshest ingredients, just for you.",
+    "categories": {
+      "chapatas": "Chapatas",
+      "bebidas": "Drinks",
+      "jugos": "Juices"
+    }
+  },
+  "recommendations": {
+    "title": "AI Chef Recommends",
+    "subtitle": "Get personalized recommendations based on your tastes and history.",
+    "loginTitle": "Sign In for Personalized Recommendations",
+    "loginSubtitle": "Create an account or sign in to unlock your personalized experience with our AI Chef.",
+    "feature1Title": "AI Recommendations",
+    "feature1Description": "Get personalized suggestions based on your dietary preferences.",
+    "feature2Title": "Order History",
+    "feature2Description": "Save your favorite orders and repeat them with one click.",
+    "feature3Title": "Exclusive Offers",
+    "feature3Description": "Receive special promotions and discounts for members.",
+    "createAccount": "Create Account",
+    "signIn": "Sign In"
+  },
+  "contact": {
+    "title": "Visit Us",
+    "subtitle": "We can't wait to serve you.",
+    "address": "Address",
+    "addressText": "Plaza de la Constitución S/N, Centro, Cuauhtémoc, 06010 Mexico City, CDMX",
+    "phone": "Phone",
+    "phoneText": "(555) 123-4567",
+    "hours": "Hours",
+    "hoursText": "Mon - Sat: 9:00 AM - 10:00 PM"
+  },
+  "footer": {
+    "description": "Freshly made chapatas, juices, and drinks with the best ingredients.",
+    "copyright": "© {year} Gabunni Eats. All rights reserved."
+  },
+  "cart": {
+    "title": "Your Order",
+    "subtitle": "Review your items before placing your order.",
+    "empty": "Your cart is empty.",
+    "startOrdering": "Start Ordering",
+    "confirmOrder": "Confirm Order",
+    "confirmMessage": "To place your order, please call us at {phone}. We are waiting for your call!",
+    "addedToCart": "{item} added to order!",
+    "reviewOrder": "You can review your order in the cart.",
+    "orderPlaced": "Order Placed!",
+    "thankYou": "Thank you for your order. We've cleared your cart."
+  },
+  "language": {
+    "es": "Español",
+    "en": "English",
+    "switchTo": "Switch language"
+  },
+  "chatbot": {
+    "title": "Chat with Gabby",
+    "subtitle": "Your Gabunni Eats assistant",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "close": "Close chat",
+    "minimize": "Minimize",
+    "typing": "Gabby is typing...",
+    "error": "Sorry, there was an error. Please try again.",
+    "welcome": "Hello! 👋 I'm Gabby, your Gabunni Eats assistant. How can I help you today?"
+  }
+}
