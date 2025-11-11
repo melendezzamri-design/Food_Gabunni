@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Gabunni Eats",
+    "siteName": "Gabunni",
     "menu": "Menú",
     "aiRecommendations": "Chef IA",
     "contact": "Contacto",
@@ -16,7 +16,7 @@
   },
   "hero": {
     "title": "Saborea la Frescura en Cada Bocado",
-    "subtitle": "Bienvenido a Gabunni Eats, donde cada chapata es una obra maestra de sabor.",
+    "subtitle": "Bienvenido a Gabunni, donde cada chapata es una obra maestra de sabor.",
     "cta": "Explorar Menú"
   },
   "menu": {
@@ -54,7 +54,7 @@
   },
   "footer": {
     "description": "Chapatas frescas, jugos y bebidas con los mejores ingredientes.",
-    "copyright": "© {year} Gabunni Eats. Todos los derechos reservados."
+    "copyright": "© {year} Gabunni. Todos los derechos reservados."
   },
   "cart": {
     "title": "Tu Pedido",

@@ -7,7 +7,6 @@ import "../globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
-import FloatingChatbot from "@/components/floating-chatbot";
 
 export const metadata: Metadata = {
   title: "Gabunni Eats",
@@ -54,7 +53,6 @@ export default async function LocaleLayout({
             <main className="flex-1">{children}</main>
             <Footer />
           </div>
-          <FloatingChatbot />
           <Toaster />
         </NextIntlClientProvider>
       </body>

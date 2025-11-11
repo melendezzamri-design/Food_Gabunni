@@ -1,5 +1,8 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import { MapPin, Phone, Clock } from "lucide-react";
+import Image from "next/image"; 
 import {
   Card,
   CardContent,
@@ -30,14 +33,22 @@ export default function ContactSection() {
   ];
 
   return (
-    <div className="container mx-auto px-4">
-      <div className="text-center mb-12">
+    // 🔑 CAMBIO CLAVE 1: Eliminamos el padding superior (pt-0)
+    <div id="contact" className="container mx-auto px-4 pt-0 pb-16"> 
+      
+      {/* Título y Subtítulo de la Sección de Contacto (Visítanos) */}
+      {/* 🔑 CAMBIO CLAVE 2: Reducimos el margen inferior (mb-4) y quitamos el margen superior (mt-0) 
+          Esto acerca el título al elemento anterior (el botón "Menú"). */}
+      <div className="text-center mt-0 mb-4">
         <h2 className="text-4xl font-bold font-headline">{t("title")}</h2>
         <p className="text-muted-foreground mt-2 text-lg">
           {t("subtitle")}
         </p>
       </div>
-      <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+
+      {/* 1. SECCIÓN DE CONTACTO Y MAPA (Estructura Original) */}
+      <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-16">
+        {/* Columna Izquierda: Información de Contacto */}
         <div className="space-y-6">
           {contactInfo.map((info) => (
             <div key={info.title} className="flex items-start gap-4">
@@ -58,16 +69,18 @@ export default function ContactSection() {
             </div>
           ))}
         </div>
+        
+        {/* Columna Derecha: Mapa */}
         <Card className="overflow-hidden shadow-lg h-80 md:h-96">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.537225146199!2d-99.1353849247833!3d19.43260773954201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f93452643a3b%3A0x2a98f3a35e88849c!2sZ%C3%B3calo!5e0!3m2!1sen!2smx!4v1680000000000!5m2!1sen!2smx"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15764.088890289768!2d-84.07842777174624!3d9.929849509890656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3c1a3b1a3e3%3A0x8a3b1a3b1a3b1a3b!2sSan%20Jos%C3%A9%2C%20Costa%20Rica!5e0!3m2!1sen!2scr!4v1678912345678!5m2!1sen!2scr" 
             width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Gabunni Eats Location"
+            title="Ubicación de Gabunni Eats"
           ></iframe>
         </Card>
       </div>

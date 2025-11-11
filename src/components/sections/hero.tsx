@@ -1,24 +1,25 @@
 import { useTranslations } from "next-intl";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+// ❌ Eliminamos: import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
 export default function Hero() {
   const t = useTranslations("hero");
-  const heroImage = PlaceHolderImages.find((img) => img.id === "hero-image");
+  // ❌ Eliminamos la lógica de PlaceHolderImages: const heroImage = PlaceHolderImages.find((img) => img.id === "hero-image");
 
   return (
     <section className="relative h-[60vh] md:h-[70vh] w-full">
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-      )}
+      
+      {/* 🖼️ IMPLEMENTACIÓN DE LA IMAGEN ESTATICA 'chapata.jpg' */}
+      <Image
+        // 🔑 CAMBIO CLAVE: Usamos la ruta estática directa
+        src="/images/chapata.jpg" 
+        alt={t("title")} // Usamos el título traducido como texto alternativo
+        fill // Propiedad 'fill' mantiene el comportamiento de cubrir todo el contenedor
+        className="object-cover"
+        priority // Para cargar la imagen principal lo antes posible
+      />
+      
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
         <h1 className="text-4xl md:text-6xl font-bold font-headline drop-shadow-lg">

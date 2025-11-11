@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Gabunni Eats",
+    "siteName": "Gabunni",
     "menu": "Menu",
     "aiRecommendations": "AI Chef",
     "contact": "Contact",
@@ -16,7 +16,7 @@
   },
   "hero": {
     "title": "Taste the Freshness in Every Bite",
-    "subtitle": "Welcome to Gabunni Eats, where every chapata is a masterpiece of flavor.",
+    "subtitle": "Welcome to Gabunni, where every chapata is a masterpiece of flavor.",
     "cta": "Explore Menu"
   },
   "menu": {
@@ -75,13 +75,13 @@
   },
   "chatbot": {
     "title": "Chat with Gabby",
-    "subtitle": "Your Gabunni Eats assistant",
+    "subtitle": "Your Gabunni assistant",
     "placeholder": "Type your message...",
     "send": "Send",
     "close": "Close chat",
     "minimize": "Minimize",
     "typing": "Gabby is typing...",
     "error": "Sorry, there was an error. Please try again.",
-    "welcome": "Hello! 👋 I'm Gabby, your Gabunni Eats assistant. How can I help you today?"
+    "welcome": "Hello! 👋 I'm Gabby, your Gabunni assistant. How can I help you today?"
   }
 }
