@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gabunni Eats
 
 A modern restaurant website built with Next.js 15, TypeScript, and Tailwind CSS, featuring AI-powered menu recommendations and an intelligent chatbot using Google's Gemini AI.
@@ -104,3 +105,7 @@ prompts/                 # AI system prompts
 ## License
 
 MIT
+=======
+# Food_Gabunni
+Gabunni food
+>>>>>>> 8b1b6adc472aa9f075248378d84d2101d32bbc2d
